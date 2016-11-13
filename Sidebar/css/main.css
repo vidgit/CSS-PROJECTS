@@ -27,3 +27,21 @@
     height: 100%;
     padding: 10px;
 }
+
+.button-nav{
+    min-width:20px;
+    overflow: hidden;
+    min-height: 4px;
+    background-color: #44474c;
+    color: #c9cfd8;
+    padding: 2px;
+    font-size: 10px;
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+    border-width: 0px 0px 2px 2px;
+    -webkit-transition: background 1s ease, border-color 1s ease;
+    -moz-transition: background 1s ease, border-color 1s ease;
+    transition: background 1s ease, border-color 1s ease;
+    cursor: pointer;
+}

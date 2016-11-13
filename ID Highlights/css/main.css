@@ -1,0 +1,14 @@
+@-webkit-keyframes flash {
+    0%{
+        background-color: black;
+        color:white;
+    }
+    50%{
+        background-color: transparent;
+        color:black;
+    }
+}
+
+section:target {
+    -webkit-animation: flash 3s 1 ease;
+}

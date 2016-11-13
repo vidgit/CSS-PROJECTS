@@ -1,0 +1,13 @@
+.profile img{
+    border-radius: 50%;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+
+    transition: filter 600ms ease;
+    -webkit-transition: filter 600ms ease;
+}
+
+.profile img:hover {
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+}

@@ -1,4 +1,8 @@
 var togSet=false;
+
+/**
+ * @return {[type]}
+ */
 (function(){
 	var body = $('body');
 	$('.menu-toggle').bind('click',function(){
@@ -7,6 +11,10 @@ var togSet=false;
 		return false;
 	});
 })();
+
+/**
+ * @return {[type]}
+ */
 (function(){
 	$('.menu-side').hover(function(){
 		var body = $('body');
@@ -18,3 +26,4 @@ var togSet=false;
 		body.removeClass('menu-open');
 		});
 })();
+

@@ -10,7 +10,7 @@ $( document ).ready(function() {
     
     if (audio.paused === false) {
       audio.pause();
-      audio.currentTime = 0;
+      //audio.currentTime = 0;
       $this.removeClass('playing');
       clearInterval(intervals);
     }
